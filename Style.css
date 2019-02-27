@@ -1,0 +1,35 @@
+h1, h2, body {
+  color: black;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background: rgb(245,245,245);
+  /*background-image: url("https://unsplash.it/1300/600?random"); thats how you put a background image*/
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner {
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+#foot {
+  background: grey;
+  padding:15px;
+  margin: 20px;
+  font-size: 20px
+}
